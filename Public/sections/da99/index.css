@@ -1,0 +1,85 @@
+
+body {
+  background: #f7f7f7;
+  font-family: Ubuntu, Segoe UI, Helvetica, sans-serif;
+  padding: 20px;
+  text-align: center;
+}
+
+body.hostname_inspection_success {
+  border-top: 5px solid lightgreen;
+}
+
+body.hostname_inspection_error {
+  border-top: 5px solid #f36161;
+}
+
+body.loading {
+  background: #ed9918;
+}
+
+div.nhk_show.recordable {
+  background: #ed9918;
+}
+div.nhk_show.recordable.recording {
+  background: #e43000;
+}
+
+a:link,
+a:visited {
+  padding: 0 2px;
+}
+
+a:hover {
+  background: #e43000;
+  color: #fff;
+}
+
+
+div.shoutcast,
+div.nhk_show {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 5px;
+  margin: 0 0 5px 0;
+}
+
+div.shoutcast div {
+  padding: 10px;
+  background-color: darkgrey;
+}
+
+div.nhk_show div {
+  padding: 10px;
+  background-color: aliceblue;
+}
+
+div.shoutcast div.title,
+div.nhk_show div.title {
+  text-align: right;
+}
+
+div.nhk_show div.title a {
+  display: inline-block;
+}
+
+div.nhk_show div.title img {
+  width: 100%;
+  max-width: 70%;
+  display: inline-block;
+}
+
+div.shoutcast div.current_title,
+div.nhk_show div.description {
+  text-align: left;
+}
+
+div.client {
+  display: inline-block;
+  padding: 0 10px 0 0;
+}
+
+div#updated_at {
+  text-align: left;
+}
+

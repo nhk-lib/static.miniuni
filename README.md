@@ -1,0 +1,2 @@
+# static.miniuni
+Static files.
